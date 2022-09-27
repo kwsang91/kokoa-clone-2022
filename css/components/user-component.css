@@ -35,15 +35,24 @@
 }
 
 .user-component__subtitle{
+    display: flex;
     margin-top: 8px;
     font-size: 17px;
     color: var(--gray-font);
 
 }
 
-.user-componet__title--not-bold{
+.user-component__subtitle i{
+    margin-left: 5px;
+    font-size: 17px;
+    color: tomato;
+}
+
+
+.user-component__title--not-bold{
     font-weight: 400;
 }
+    
 
 
 
@@ -51,7 +60,7 @@
     color: var(--gray-font);
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
 }
 
 .user-component__time{
