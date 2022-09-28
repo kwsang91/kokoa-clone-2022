@@ -1,0 +1,20 @@
+.settings__setting{
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.settings__setting i{
+    margin-right: 20px;
+    font-size: 22px;
+}
+
+.settings__setting span{
+    margin-right: 5px;
+}
+
+.settings__notification{
+    font-size: 10px;
+}
