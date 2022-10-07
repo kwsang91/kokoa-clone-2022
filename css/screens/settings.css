@@ -4,6 +4,7 @@
     font-size: 18px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .settings__setting i{
@@ -17,4 +18,13 @@
 
 .settings__notification{
     font-size: 10px;
+}
+
+.settings__setting-column{
+    display: flex;
+    align-items: center;
+}
+
+.settings__setting-column:last-child{
+    opacity: 0.5;
 }
