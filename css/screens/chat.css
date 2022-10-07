@@ -79,13 +79,59 @@
     justify-content: flex-end;
 }
 
+.message-row--own .message__info{
+    flex-direction: row-reverse;
+}
+
 .message-row--own .message__bubble{
-    order: 1;
     background-color: var(--yellow);
     border-top-right-radius: 0px ;
     border-top-left-radius:15px ;
+    margin-right: 0px;
+    margin-left: 5px;
 }
 
-.message-row--own .message__time{
-    order: 0;;
+.reply{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+
+.reply .reply__column:first-child{
+    width: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reply .reply__column:last-child{
+    width: 95%;
+    position: relative;
+}
+
+
+.reply input {
+    height: 30px;
+    width: 100%;
+    border: var( --main-border);
+    border-radius: 20px;
+    padding: 0px 15px;
+}
+
+.reply__column:last-child > i, 
+.reply__column:last-child button {
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+
+.reply__column:last-child > i {
+    right: 15px;
 }
