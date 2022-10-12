@@ -115,7 +115,7 @@
     
     width: 90%;
     position: relative;
-    padding-right:35px;
+    padding-right:40px;
     
 }
 
@@ -140,12 +140,12 @@
 }
 
 .reply__column:last-child > i {
-    right: 43px;
+    right: 45px;
     top:15px;
 }
 
 .reply__column:last-child > button {
-    right: 7px;
+    right: 11px;
 }
 
 
