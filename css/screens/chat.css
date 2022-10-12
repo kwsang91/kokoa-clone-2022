@@ -98,22 +98,25 @@
     background-color: white;
     display: flex;
     justify-content: space-between;
-    padding: 5px 10px;
+    padding: 5px 0px;
     box-sizing: border-box;
     align-items: center;
 }
 
 
 .reply .reply__column:first-child{
-    width: 5%;
+    width: 10%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .reply .reply__column:last-child{
-    width: 95%;
+    
+    width: 90%;
     position: relative;
+    padding-right:35px;
+    
 }
 
 
@@ -125,13 +128,41 @@
     padding: 0px 15px;
 }
 
+.reply i{
+    opacity: 0.5;
+}
+
 .reply__column:last-child > i, 
 .reply__column:last-child button {
     position: absolute;
-    right: 0;
-    top: 10px;
+    right: 0px;
+    top: 3px
 }
 
 .reply__column:last-child > i {
-    right: 15px;
+    right: 43px;
+    top:15px;
+}
+
+.reply__column:last-child > button {
+    right: 7px;
+}
+
+
+.reply__column button{
+    background-color: var(--yellow);
+    border: none;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+
+}
+
+.reply__column button i{
+    opacity: 1;
+}
+
+.reply__column button:focus,
+.reply__column button:active{
+    outline: none;
 }
